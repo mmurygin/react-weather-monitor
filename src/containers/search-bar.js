@@ -17,9 +17,13 @@ export default class SearchBar extends Component {
     });
   }
 
+  onFormSubmit(event) {
+    event.preventDefault();
+  }
+
   render() {
     return (
-      <form className='input-group'>
+      <form className='input-group' onSubmit={this.onFormSubmit}>
         <input
           placeholder='Please enter a search term'
           className='form-control'
