@@ -34,10 +34,10 @@ class WeatherList extends Component {
       <table className='table table-hover'>
         <thead>
           <tr>
-            <th className='w-25'>City</th>
-            <th className='w-25'>Temperature (C)</th>
-            <th className='w-25'>Pressure (hPa)</th>
-            <th className='w-25'>Humidity (%)</th>
+            <th>City</th>
+            <th>Temperature (C)</th>
+            <th>Pressure (hPa)</th>
+            <th>Humidity (%)</th>
           </tr>
         </thead>
         <tbody>
