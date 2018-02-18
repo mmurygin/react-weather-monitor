@@ -1,13 +1,16 @@
 # React Weather Monitor
 
 ## Getting Started
+1. Install dependencies
 
-1. Install Dependencies
-    ```
+    ```bash
     npm install
     ```
 
-1. Start dev server
-    ```
+1. Run server
+
+    ```bash
     npm start
     ```
+
+1. Navigate to http://localhost:8080
